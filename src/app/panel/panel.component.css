@@ -1,0 +1,40 @@
+
+
+
+.card-img-top{
+    background-color: rgb(151, 141, 141);
+    height: 30vh; 
+    display: flex;  
+    z-index: 1;
+    border-radius: 4px;
+    width: 100vh;
+}
+.btn-titulo{
+    color: green;
+    font-weight: 500;
+}
+.card{
+    width: 20vh;
+    padding: 8px;
+    border-radius: 8px;
+    float: left;
+    margin: 1vh;
+  
+}
+#container{
+    position: absolute;
+    z-index: 0;
+    top: 21vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card p{
+    font-weight: 500;
+    color: green;
+}
+.row{
+    margin-left: 1vh;
+}
