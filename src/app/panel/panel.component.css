@@ -1,40 +1,78 @@
+@media only screen and (max-width: 560px) {
+
+    .card {
+
+        
+        margin: 0;
+       
+        left: 0;
+       
 
 
+    }
 
-.card-img-top{
-    background-color: rgb(151, 141, 141);
-    height: 30vh; 
-    display: flex;  
-    z-index: 1;
-    border-radius: 4px;
-    width: 100vh;
 }
-.btn-titulo{
-    color: green;
-    font-weight: 500;
+@media only screen and (max-width: 500px) {
+
+    .card {
+
+       
+        margin: auto;
+       
+     
+
+
+    }
+    .card-title{
+        font-size: 15px;
+    }
+
 }
-.card{
-    width: 20vh;
-    padding: 8px;
-    border-radius: 8px;
-    float: left;
-    margin: 1vh;
-  
+@media only screen and (max-width: 420px) {
+
+    .card {
+
+        
+        margin: 0;
+    
+        
+       
+
+
+    }
+    .card-title{
+        font-size: 12px;
+    }
+
 }
-#container{
+
+.container {
     position: absolute;
-    z-index: 0;
-    top: 21vh;
+    margin: auto;
+
+    width: 100%;
+    margin: auto;
+    padding: 0;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    width: 100%;
 }
 
-.card p{
-    font-weight: 500;
-    color: green;
+.card {
+
+    width: 28%;
+    top: 10vh;
+    margin: 5px;
+    float: left;
+    border-radius: 4px 4px 0px 0px;
+    left: 2vh;
+
+
 }
-.row{
-    margin-left: 1vh;
+.card-title{
+font-weight: 500;
+color: green;
+}
+.card-img-top{
+    background-color: #9898987d;
+    border-radius: 4px 4px 0px 0px;
 }
